@@ -1,0 +1,17 @@
+{
+  "short_name": "GK Pro",
+  "name": "GK Assistant Professional",
+  "icons": [
+    {
+      "src": "GKlogo.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "GKindex.html",
+  "background_color": "#2c3e50",
+  "display": "standalone",
+  "scope": "./",
+  "theme_color": "#4e54c8"
+}
