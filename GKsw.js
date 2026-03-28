@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gk-pro-v1';
+const CACHE_NAME = 'gk-pro-v1.1';
 const ASSETS = [
   'index.html',
   'GKstyle.css',
