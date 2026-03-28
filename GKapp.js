@@ -1,22 +1,26 @@
 const savedData = {
     "Unique Animals": [
-        "Secretary bird", 
-        "Civet", 
-        "Addax", 
-        "Puffin", 
-        "Kouprey", 
-        "Spider monkey"
+        "Secretary bird", "Civet", "Addax", "Puffin", "Kouprey", "Spider monkey"
     ],
     "Laughter Therapy": [
-        "Immune system benefits of laughter", 
-        "Stress management", 
-        "Sleep hygiene", 
-        "Clinical depression", 
-        "Heart health", 
-        "Social benefits"
+        "Laughter therapy", "Immune system", "Stress management", "Sleep hygiene", "Heart health", "Social psychology"
+    ],
+    "Amazing Places": [
+        "Pamukkale", "Caño Cristales", "Great Blue Hole", "Chocolate Hills", "Richat Structure", "The Wave Arizona"
+    ],
+    "Endangered Trees": [
+        "Adansonia digitata", "St Helena Gumwood", "Quercus hintonii", "Loulu tree", "Bois Dentelle", "Dracaena cinnabari"
+    ],
+    "Spacewalk Legends": [
+        "Susan Helms", "Anatoly Solovyev", "Zhai Zhigang", "Alexei Leonov", "Steve Robinson astronaut", "Svetlana Savitskaya"
+    ],
+    "Forts of India": [
+        "Jaisalmer Fort", "Agra Fort", "Red Fort", "Mehrangarh Fort", "Purana Qila", "Amber Fort"
+    ],
+    "Women in Science": [
+        "Gitanjali Rao", "Mangala Mani", "Jennifer Doudna", "Ritu Karidhal", "Cynthia Rosenzweig"
     ]
 };
-
 let maleVoice = null;
 
 window.onload = () => {
