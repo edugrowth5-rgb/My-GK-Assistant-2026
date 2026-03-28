@@ -4,7 +4,7 @@ const ASSETS = [
   'GKstyle.css',
   'GKapp.js',
   'GKmanifest.json',
-  '1000053029-removebg-preview.png'
+  'Brain.png'
 ];
 
 // Install Service Worker
