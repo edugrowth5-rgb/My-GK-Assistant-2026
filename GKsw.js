@@ -1,6 +1,6 @@
 const CACHE_NAME = 'gk-pro-v1';
 const ASSETS = [
-  'GKindex.html',
+  'index.html',
   'GKstyle.css',
   'GKapp.js',
   'GKmanifest.json'
