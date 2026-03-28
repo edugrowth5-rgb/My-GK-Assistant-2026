@@ -2,9 +2,6 @@ const savedData = {
     "Unique Animals": [
         "Secretary bird", "Civet", "Addax", "Puffin", "Kouprey", "Spider monkey"
     ],
-    "Laughter Therapy": [
-        "Laughter therapy", "Immune system", "Stress management", "Sleep hygiene", "Heart health", "Social psychology"
-    ],
     "Amazing Places": [
         "Pamukkale", "Caño Cristales", "Great Blue Hole", "Chocolate Hills", "Richat Structure", "The Wave Arizona"
     ],
