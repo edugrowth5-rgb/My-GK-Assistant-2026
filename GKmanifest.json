@@ -1,9 +1,9 @@
 {
-  "short_name": "GK Pro",
+  "short_name": "Sagar GK Pro",
   "name": "GK Assistant Professional",
   "icons": [
     {
-      "src": "1000053029-removebg-preview.png",
+      "src": "Brain.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
