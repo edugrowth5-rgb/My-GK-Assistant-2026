@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GK Pro Assistant</title>
+    <link rel="stylesheet" href="GKstyle.css">
+    <link rel="manifest" href="GKmanifest.json">
+<meta name="theme-color" content="#4e54c8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('GKsw.js')
+        .then(reg => console.log('Service Worker Registered!'))
+        .catch(err => console.log('Service Worker Error', err));
+    });
+  }
+</script>
+</head>
+<body>
+
+    <header class="top-header">
+        <div class="menu-icon" onclick="toggleLeftSidebar()">☰</div>
+        <div class="app-logo">GK <span>Assistant</span></div>
+        <div class="user-status" id="statusIndicator">System Ready</div>
+    </header>
+
+    <div class="app-body">
+        <aside class="sidebar-left" id="leftSidebar">
+            <div class="sidebar-label">LIBRARY</div>
+            <div id="topicsContainer"></div>
+        </aside>
+
+        <main class="content-view">
+            <div id="displayWrapper" class="hidden">
+                <h1 id="topicHeading"></h1>
+                <div class="image-frame">
+                    <img id="topicImg" src="" alt="Topic Visual">
+                </div>
+                <div class="text-frame">
+                    <p id="topicDescription"></p>
+                </div>
+            </div>
+            <div id="welcomeMessage">
+                <h2>Ready to Explore?</h2>
+                <p>Select a topic from the left menu or use the search bar on the right.</p>
+            </div>
+        </main>
+
+        <aside class="sidebar-right">
+            <div class="widget">
+                <h4>Search Topic</h4>
+                <input type="text" id="searchInput" placeholder="Enter keyword...">
+                <button onclick="executeSearch()" class="btn-primary">Search & Read</button>
+                <button onclick="killSpeech()" class="btn-danger">Stop Audio</button>
+            </div>
+            <div class="widget info-box">
+                <h4>Voice Settings</h4>
+                <p>Mode: Professional Male</p>
+                <p>Speed: Balanced</p>
+            </div>
+        </aside>
+    </div>
+
+    <script src="GKapp.js"></script>
+</body>
+</html>
