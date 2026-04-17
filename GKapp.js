@@ -2,6 +2,9 @@ const savedData = {
     "Unique Animals": [
         "Secretary bird", "Civet", "Addax", "Puffin", "Kouprey", "Spider monkey"
     ],
+    "Laughter Therapy": [
+        "Laughter therapy", "Immune system", "Stress management", "Sleep hygiene", "Heart health", "Social psychology"
+    ],
     "Amazing Places": [
         "Pamukkale", "Caño Cristales", "Great Blue Hole", "Chocolate Hills", "Richat Structure", "The Wave Arizona"
     ],
@@ -16,8 +19,26 @@ const savedData = {
     ],
     "Women in Science": [
         "Gitanjali Rao", "Mangala Mani", "Jennifer Doudna", "Ritu Karidhal", "Cynthia Rosenzweig"
+    ],
+    "World's Most Amazing Natural Phenomena" : [
+        "Moving Stones", "Baltic and North Seas Meet", "Penitentes", "Red Tides", "Fire Whirl", "Ice Circles" 
+    ],
+    "The Living Machine" : [ 
+      "Neuron", "Red Blood Cells", "Stapes", "Eye Muscle", "Buttock Muscle", "Stapedius", "Patella (knee cap)",  "Aorta", "Lymphocytes" 
+    ],
+    "Futuristic World" : ["Farm Scrapers", "Windowless Planes", "Personal Rapid Transit", "Oceanix", "Ocean Spiral City", "Solar-powered House"
+    ],
+    "Scientific Instruments" : [
+    "Hygrometer", "Binoculars", "Altimeter", "Electrocardiograph", "Electroscope", "Dynamo", "Anemometer", "Viscometer", "Barometer", "Hydrometer", "Amplifier", "Calorimeter"
+    ],
+    "What Am I?" : [
+    "poet", "atheist", "omniscient", "orator", "illiterate", "pessimist", "social reformer", "fatalist", "linguist", "honorary", "effeminate", "equestrian", "optimist", "traitor", "philanthropist"
+    ],
+    "Indian Renaissance" : [
+    "Swami Vivekanand", "Sree Narayana Guru", "Mirza Ghulam Ahmed", "Annie Besant", "Raja Ram Mohan Roy", "Swami Dayanand Saraswati", "Jyotiba Phule", "Debendranath Thakur", "Keshav Chandra Sen", "Mahadev Govind Ranade", "Swami Dayanand Saraswati", "Chembeti Shridharalu Naidu", "Kandukuri Veeresalingam", "Madam HP Blavatsky", "R K Bhandarkar"
     ]
 };
+
 let maleVoice = null;
 
 window.onload = () => {
