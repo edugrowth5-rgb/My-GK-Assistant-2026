@@ -32,7 +32,7 @@ const savedData = {
     "Hygrometer", "Binoculars", "Altimeter", "Electrocardiograph", "Electroscope", "Dynamo", "Anemometer", "Viscometer", "Barometer", "Hydrometer", "Amplifier", "Calorimeter"
     ],
     "What Am I?" : [
-    "poet", "atheist", "omniscient", "orator", "illiterate", "pessimist", "social reformer", "fatalist", "linguist", "honorary", "effeminate", "equestrian", "optimist", "traitor", "philanthropist"
+    "Poet", "Atheist", "Omniscient", "Orator", "Illiterate", "Pessimist", "Social Reformer", "Fatalist", "Linguist", "Honorary", "Effeminate", "Equestrian", "Optimist", "Traitor", "Philanthropist"
     ],
     "Indian Renaissance" : [
     "Swami Vivekanand", "Sree Narayana Guru", "Mirza Ghulam Ahmed", "Annie Besant", "Raja Ram Mohan Roy", "Swami Dayanand Saraswati", "Jyotiba Phule", "Debendranath Thakur", "Keshav Chandra Sen", "Mahadev Govind Ranade", "Swami Dayanand Saraswati", "Chembeti Shridharalu Naidu", "Kandukuri Veeresalingam", "Madam HP Blavatsky", "R K Bhandarkar"
