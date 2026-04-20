@@ -9,7 +9,7 @@ const savedData = {
         "Pamukkale", "Caño Cristales", "Great Blue Hole", "Chocolate Hills", "Richat Structure", "The Wave Arizona"
     ],
     "Endangered Trees": [
-        "Adansonia digitata", "St Helena Gumwood", "Quercus hintonii", "Loulu tree", "Bois Dentelle", "Dracaena cinnabari"
+        "Bois Dentelle Tree", "St Helena Gumwood Tree", "Hinton's Oak Tree", "Loulu tree", "Dragon Tree", "African Baobab Tree"
     ],
     "Spacewalk Legends": [
         "Susan Helms", "Anatoly Solovyev", "Zhai Zhigang", "Alexei Leonov", "Steve Robinson astronaut", "Svetlana Savitskaya"
