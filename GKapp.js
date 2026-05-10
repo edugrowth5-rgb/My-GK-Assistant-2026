@@ -36,6 +36,9 @@ const savedData = {
     ],
     "Indian Renaissance" : [
     "Swami Vivekanand", "Sree Narayana Guru", "Mirza Ghulam Ahmed", "Annie Besant", "Raja Ram Mohan Roy", "Swami Dayanand Saraswati", "Jyotiba Phule", "Debendranath Thakur", "Keshav Chandra Sen", "Mahadev Govind Ranade", "Swami Dayanand Saraswati", "Chembeti Shridharalu Naidu", "Kandukuri Veeresalingam", "Madam HP Blavatsky", "R K Bhandarkar"
+    ],
+    "Human Body Harmons" : [
+    "Adrenocorticotropic Hormone (ACTH)", "Aldosterone, Androstenedione", "Anti-Diuretic Hormone (ADH)", "Angiotensinogen", "Atrial-Natriuretic Peptide (ANP)", "Brain Natriuretic Peptide (BNP)", "Calcitonin", "Cholecystokinin (CCK)", "Cortisol", "Corticotropin-Releasing Hormone (CRH)", "Dehydroepiandrosterone (DHEA)", "Dihydrotestosterone (DHT)", "Dopamine", "Epinephrine (Adrenaline)", "Erythropoietin (EPO)", "Estradiol", "Estriol", "Estrone", "Follicle-Stimulating Hormone (FSH)", "Gastrin", "Ghrelin", "Glucagon", "Gonadotropin-Releasing Hormone (GnRH)", "Growth Hormone (GH)", "Human Chorionic Gonadotropin (hCG)", "Hepcidin", "Insulin", "Insulin-like Growth Factor (IGF-1)", "Inhibin", "Leptin", "Luteinizing Hormone (LH)", "Melatonin", "Motilin", "Norepinephrine", "Neuropeptide Y", "Oxytocin", "Orexin", "Parathyroid Hormone (PTH)", "Progesterone", "Prolactin", "Peptide YY (PYY)", "Renin", "Relaxin", "Secretin", "Somatostatin", "Serotonin", "Testosterone", "Thymosin", "Thyroxine (T4)", "Triiodothyronine (T3)", "Thyrotropin-Releasing Hormone (TRH)", "Vasopressin", "Vasoactive Intestinal Peptide (VIP)"
     ]
 };
 
